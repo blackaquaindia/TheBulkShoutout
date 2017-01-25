@@ -171,7 +171,7 @@ function F2DownloadPage_js() {
         $(document).off("click", '#F2DownloadPage_mobilecontainer [name="mobilebutton_17"]').on({
             click: function(event) {
                 if (!$(this).attr('disabled')) {
-                    window.open('https://drive.google.com/file/d/0B05bWc7njQmeRlphYUVoUkhmOUk/view?usp=sharing', 'NewWindow', 'width=600,height=400,toolbar=yes,location=yes,directories=yes,status=yes,menubar=yes,scrollbars=yes,copyhistory=yes,resizable=yes');
+                    window.open('https://github.com/blackaquaindia/TheBulkShoutout/raw/master/The_Bulk_Shoutout_Certified_v1.0.1_for_Android_4.1.2.apk', 'NewWindow', 'width=600,height=400,toolbar=yes,location=yes,directories=yes,status=yes,menubar=yes,scrollbars=yes,copyhistory=yes,resizable=yes');
 
                 }
             },
