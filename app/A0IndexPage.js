@@ -23,14 +23,23 @@ function setDetailContent(pageUrl) {
 }
 
 Apperyio.AppPages = [{
+    "name": "F1DeveloperPage",
+    "location": "F1DeveloperPage.html"
+}, {
     "name": "D0ComplaintPage",
     "location": "D0ComplaintPage.html"
+}, {
+    "name": "F2DownloadPage",
+    "location": "F2DownloadPage.html"
 }, {
     "name": "F0AboutUsPage",
     "location": "F0AboutUsPage.html"
 }, {
     "name": "B0ShoutoutPage",
     "location": "B0ShoutoutPage.html"
+}, {
+    "name": "B1CheckShoutoutPage",
+    "location": "B1CheckShoutoutPage.html"
 }, {
     "name": "A0IndexPage",
     "location": "A0IndexPage.html"

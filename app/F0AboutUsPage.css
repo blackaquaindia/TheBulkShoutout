@@ -3,11 +3,68 @@
 .ui-icon-loading {
 	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
 }
+/* mobilebutton_2 */
+#F0AboutUsPage_mobilebutton_2 {
+
+}
+.ui-btn.F0AboutUsPage_mobilebutton_2 {
+
+}
 /* mobilecontainer */
 .ui-content.F0AboutUsPage_mobilecontainer {
 	padding: 15px 15px 15px 15px;
 }
+/* mobilegroupedbuttons_7 */
+.ui-controlgroup.F0AboutUsPage_mobilegroupedbuttons_7 {
+	margin: 4px 5px 4px 5px;
+}
+.ui-controlgroup.F0AboutUsPage_mobilegroupedbuttons_7 .ui-btn {
+	margin: 0 -1px 0 0;
+}
+/* mobilebutton_8 */
+#F0AboutUsPage_mobilebutton_8 {
+
+}
+.ui-btn.F0AboutUsPage_mobilebutton_8 {
+
+}
 /* mobilefooter */
 .F0AboutUsPage_mobilefooter {
 	min-height:38px;
+}
+/* UpdatePopupName */
+.F0AboutUsPage_UpdatePopupName {
+	width: 100%; height: 100%;
+}
+div.F0AboutUsPage_UpdatePopupName {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.F0AboutUsPage_UpdatePopupName .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+}
+/* mobilelabel_4 */
+.F0AboutUsPage_mobilelabel_4 {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_5 */
+.F0AboutUsPage_mobilelabel_5 {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_6 */
+.F0AboutUsPage_mobilelabel_6 {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
 }

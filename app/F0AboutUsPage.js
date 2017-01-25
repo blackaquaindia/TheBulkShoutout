@@ -23,14 +23,23 @@ function setDetailContent(pageUrl) {
 }
 
 Apperyio.AppPages = [{
+    "name": "F1DeveloperPage",
+    "location": "F1DeveloperPage.html"
+}, {
     "name": "D0ComplaintPage",
     "location": "D0ComplaintPage.html"
+}, {
+    "name": "F2DownloadPage",
+    "location": "F2DownloadPage.html"
 }, {
     "name": "F0AboutUsPage",
     "location": "F0AboutUsPage.html"
 }, {
     "name": "B0ShoutoutPage",
     "location": "B0ShoutoutPage.html"
+}, {
+    "name": "B1CheckShoutoutPage",
+    "location": "B1CheckShoutoutPage.html"
 }, {
     "name": "A0IndexPage",
     "location": "A0IndexPage.html"
@@ -52,7 +61,12 @@ function F0AboutUsPage_js() {
 
     /* Object & array with components "name-to-id" mapping */
     var n2id_buf = {
-
+        'mobilebutton_2': 'F0AboutUsPage_mobilebutton_2',
+        'mobilegroupedbuttons_7': 'F0AboutUsPage_mobilegroupedbuttons_7',
+        'mobilebutton_8': 'F0AboutUsPage_mobilebutton_8',
+        'mobilelabel_4': 'F0AboutUsPage_mobilelabel_4',
+        'mobilelabel_5': 'F0AboutUsPage_mobilelabel_5',
+        'mobilelabel_6': 'F0AboutUsPage_mobilelabel_6'
     };
 
     if ("n2id" in window && window.n2id !== undefined) {
@@ -114,6 +128,9 @@ function F0AboutUsPage_js() {
     function F0AboutUsPage_elementsExtraJS() {
         // screen (F0AboutUsPage) extra code
 
+        /* UpdatePopupName */
+        $("#F0AboutUsPage_UpdatePopupName").popup("option", "positionTo", "window");
+
     };
 
     // screen elements handler
@@ -123,6 +140,37 @@ function F0AboutUsPage_js() {
         $(document).on("click", "a :input,a a,a fieldset label", function(event) {
             event.stopPropagation();
         });
+
+        $(document).off("click", '#F0AboutUsPage_mobileheader [name="mobilebutton_2"]').on({
+            click: function(event) {
+                if (!$(this).attr('disabled')) {
+                    var popupElement = Apperyio("UpdatePopupName");
+                    if (popupElement.popup("option", "positionTo") === "origin") {
+                        popupElement.popup("open", {
+                            transition: "pop",
+                            positionTo: "#" + $(this).attr("id")
+                        });
+                    } else {
+                        popupElement.popup("open", {
+                            transition: "pop"
+                        });
+                    };
+
+                }
+            },
+        }, '#F0AboutUsPage_mobileheader [name="mobilebutton_2"]');
+
+        $(document).off("click", '#F0AboutUsPage_mobilecontainer [name="mobilebutton_8"]').on({
+            click: function(event) {
+                if (!$(this).attr('disabled')) {
+                    Apperyio.navigateTo('F1DeveloperPage', {
+                        transition: 'slide',
+                        reverse: false
+                    });
+
+                }
+            },
+        }, '#F0AboutUsPage_mobilecontainer [name="mobilebutton_8"]');
 
     };
 

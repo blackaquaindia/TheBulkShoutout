@@ -3,9 +3,68 @@
 .ui-icon-loading {
 	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
 }
+/* mobilebutton_11 */
+#C1BecomePartnerPage_mobilebutton_11 {
+
+}
+.ui-btn.C1BecomePartnerPage_mobilebutton_11 {
+
+}
 /* mobilecontainer */
 .ui-content.C1BecomePartnerPage_mobilecontainer {
 	padding: 15px 15px 15px 15px;
+}
+/* mobilelabel_2 */
+.C1BecomePartnerPage_mobilelabel_2 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_8 */
+.C1BecomePartnerPage_spacer_8 {
+	width: 100%; height: 25px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_7 */
+.C1BecomePartnerPage_mobilelabel_7 {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_3 */
+.C1BecomePartnerPage_mobilelabel_3 {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_6 */
+.C1BecomePartnerPage_spacer_6 {
+	width: 100%; height: 25px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_4 */
+.C1BecomePartnerPage_mobilelabel_4 {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_5 */
+.C1BecomePartnerPage_mobilelabel_5 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_10 */
+.C1BecomePartnerPage_mobilelabel_10 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
 }
 /* mobilefooter */
 .C1BecomePartnerPage_mobilefooter {

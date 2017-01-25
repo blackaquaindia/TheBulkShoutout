@@ -23,14 +23,23 @@ function setDetailContent(pageUrl) {
 }
 
 Apperyio.AppPages = [{
+    "name": "F1DeveloperPage",
+    "location": "F1DeveloperPage.html"
+}, {
     "name": "D0ComplaintPage",
     "location": "D0ComplaintPage.html"
+}, {
+    "name": "F2DownloadPage",
+    "location": "F2DownloadPage.html"
 }, {
     "name": "F0AboutUsPage",
     "location": "F0AboutUsPage.html"
 }, {
     "name": "B0ShoutoutPage",
     "location": "B0ShoutoutPage.html"
+}, {
+    "name": "B1CheckShoutoutPage",
+    "location": "B1CheckShoutoutPage.html"
 }, {
     "name": "A0IndexPage",
     "location": "A0IndexPage.html"
@@ -52,7 +61,15 @@ function C1BecomePartnerPage_js() {
 
     /* Object & array with components "name-to-id" mapping */
     var n2id_buf = {
-
+        'mobilebutton_11': 'C1BecomePartnerPage_mobilebutton_11',
+        'mobilelabel_2': 'C1BecomePartnerPage_mobilelabel_2',
+        'spacer_8': 'C1BecomePartnerPage_spacer_8',
+        'mobilelabel_7': 'C1BecomePartnerPage_mobilelabel_7',
+        'mobilelabel_3': 'C1BecomePartnerPage_mobilelabel_3',
+        'spacer_6': 'C1BecomePartnerPage_spacer_6',
+        'mobilelabel_4': 'C1BecomePartnerPage_mobilelabel_4',
+        'mobilelabel_5': 'C1BecomePartnerPage_mobilelabel_5',
+        'mobilelabel_10': 'C1BecomePartnerPage_mobilelabel_10'
     };
 
     if ("n2id" in window && window.n2id !== undefined) {

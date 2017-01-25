@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            F2DownloadPage
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-ajaxTransport.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/q/q.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/EventEmitter.js/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/tv4/tv4.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/dist/localforage.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-setitems/localforage-setitems.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-find/localforage-find.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/crypto-js-md5/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/moment/moment.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/underscore-query/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/offline/offline.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../libs/cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="F2DownloadPage" id="F2DownloadPage"
+        class="type-interior" data-theme="c">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="c" name="mobileheader" id="F2DownloadPage_mobileheader" class="F2DownloadPage_mobileheader">
+                <h1 dsid="mobileheader">
+                    Download
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="F2DownloadPage_mobilecontainer" name="mobilecontainer"
+            class="F2DownloadPage_mobilecontainer ui-content" dsid="mobilecontainer" data-theme="c">
+                <link href="F2DownloadPage.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="F2DownloadPage.js">
+                </script>
+                <!-- mobilelabel_2 -->
+                <div name="mobilelabel_2" id="F2DownloadPage_mobilelabel_2" dsid="mobilelabel_2"
+                data-role="appery_label" class="F2DownloadPage_mobilelabel_2">
+                    Welcome To The Bulk Shoutout...
+                </div>
+                <!-- mobilelabel_14 -->
+                <div name="mobilelabel_14" id="F2DownloadPage_mobilelabel_14" dsid="mobilelabel_14"
+                data-role="appery_label" class="F2DownloadPage_mobilelabel_14">
+                    India's 1st Bulk Shoutout App
+                </div>
+                <!-- spacer_21 -->
+                <div id="F2DownloadPage_spacer_21" data-role="appery_spacer" dsid="spacer_21" class='mobilespacer F2DownloadPage_spacer_21'>
+                </div>
+                <!-- mobilelabel_15 -->
+                <div name="mobilelabel_15" id="F2DownloadPage_mobilelabel_15" dsid="mobilelabel_15"
+                data-role="appery_label" class="F2DownloadPage_mobilelabel_15">
+                    You Can Submit Your Shoutout Data to 1000s of Pages At 1 Click...
+                </div>
+                <!-- spacer_16 -->
+                <div id="F2DownloadPage_spacer_16" data-role="appery_spacer" dsid="spacer_16" class='mobilespacer F2DownloadPage_spacer_16'>
+                </div>
+                <!-- mobilelabel_23 -->
+                <div name="mobilelabel_23" id="F2DownloadPage_mobilelabel_23" dsid="mobilelabel_23"
+                data-role="appery_label" class="F2DownloadPage_mobilelabel_23">
+                    The Bulk Shoutout
+                </div>
+                <!-- mobilelabel_22 -->
+                <div name="mobilelabel_22" id="F2DownloadPage_mobilelabel_22" dsid="mobilelabel_22"
+                data-role="appery_label" class="F2DownloadPage_mobilelabel_22">
+                    v1.0.1 Availlable
+                </div>
+                <!-- mobilelabel_24 -->
+                <div name="mobilelabel_24" id="F2DownloadPage_mobilelabel_24" dsid="mobilelabel_24"
+                data-role="appery_label" class="F2DownloadPage_mobilelabel_24">
+                    Build: 26 January 2017
+                </div>
+                <!-- spacer_25 -->
+                <div id="F2DownloadPage_spacer_25" data-role="appery_spacer" dsid="spacer_25" class='mobilespacer F2DownloadPage_spacer_25'>
+                </div>
+                <!-- mobilelabel_13 -->
+                <div name="mobilelabel_13" id="F2DownloadPage_mobilelabel_13" dsid="mobilelabel_13"
+                data-role="appery_label" class="F2DownloadPage_mobilelabel_13">
+                    Please Select Your Device
+                </div>
+                <!-- mobilecollapsibleset_3 -->
+                <div data-role="collapsible-set" data-mini="true" data-theme="c" data-content-theme=c
+                data-collapsed-icon='plus' data-expanded-icon='minus' name="mobilecollapsibleset_3"
+                id="F2DownloadPage_mobilecollapsibleset_3" dsid="mobilecollapsibleset_3" class="F2DownloadPage_mobilecollapsibleset_3">
+                    <!-- mobilecollapsblock_4 -->
+                    <div data-role="collapsible" id="F2DownloadPage_mobilecollapsblock_4" name="mobilecollapsblock_4"
+                    dsid="mobilecollapsblock_4" data-mini="true" data-collapsed="true" data-theme="c"
+                    data-content-theme="c" data-iconpos='left' class="F2DownloadPage_mobilecollapsblock_4"
+                    reRender='mobilecollapsibleset_3'>
+                        <h3 id="F2DownloadPage_mobilecollapsblockheader_5" name="mobilecollapsblockheader_5"
+                        dsid="mobilecollapsblockheader_5">
+                            Android
+                        </h3>
+                        <!-- mobilelabel_20 -->
+                        <div name="mobilelabel_20" id="F2DownloadPage_mobilelabel_20" dsid="mobilelabel_20"
+                        data-role="appery_label" class="F2DownloadPage_mobilelabel_20">
+                            Select Your Phones System
+                        </div>
+                        <!-- mobilebutton_17 --><!--
+                        --><a data-role="button" name="mobilebutton_17" dsid="mobilebutton_17" class="F2DownloadPage_mobilebutton_17"
+                        id="F2DownloadPage_mobilebutton_17" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                        x-apple-data-detectors="false" data-mini="true" data-theme="c" tabindex="2">
+                        Android 4.1.2 System
+                        </a>
+                    </div>
+                    <!-- mobilecollapsblock_7 -->
+                    <div data-role="collapsible" id="F2DownloadPage_mobilecollapsblock_7" name="mobilecollapsblock_7"
+                    dsid="mobilecollapsblock_7" data-mini="true" data-collapsed="true" data-theme="c"
+                    data-content-theme="c" data-iconpos='left' class="F2DownloadPage_mobilecollapsblock_7"
+                    reRender='mobilecollapsibleset_3'>
+                        <h3 id="F2DownloadPage_mobilecollapsblockheader_8" name="mobilecollapsblockheader_8"
+                        dsid="mobilecollapsblockheader_8">
+                            iPhone
+                        </h3>
+                        <!-- mobilebutton_18 --><!--
+                        --><a data-role="button" name="mobilebutton_18" dsid="mobilebutton_18" class="F2DownloadPage_mobilebutton_18"
+                        id="F2DownloadPage_mobilebutton_18" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                        x-apple-data-detectors="false" data-mini="true" data-theme="c" tabindex="3">
+                        No Version Available
+                        </a>
+                    </div>
+                    <!-- mobilecollapsblock_10 -->
+                    <div data-role="collapsible" id="F2DownloadPage_mobilecollapsblock_10" name="mobilecollapsblock_10"
+                    dsid="mobilecollapsblock_10" data-mini="true" data-collapsed="true" data-theme="c"
+                    data-content-theme="c" data-iconpos='left' class="F2DownloadPage_mobilecollapsblock_10"
+                    reRender='mobilecollapsibleset_3'>
+                        <h3 id="F2DownloadPage_mobilecollapsblockheader_11" name="mobilecollapsblockheader_11"
+                        dsid="mobilecollapsblockheader_11">
+                            Windows
+                        </h3>
+                        <!-- mobilebutton_19 --><!--
+                        --><a data-role="button" name="mobilebutton_19" dsid="mobilebutton_19" class="F2DownloadPage_mobilebutton_19"
+                        id="F2DownloadPage_mobilebutton_19" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                        x-apple-data-detectors="false" data-mini="true" data-theme="c" tabindex="4">
+                        No Version Available
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="F2DownloadPage_mobilefooter"
+            name="mobilefooter" dsid="mobilefooter" id="F2DownloadPage_mobilefooter" data-theme="c">
+            </div>
+        </div>
+    </body>
+
+</html>

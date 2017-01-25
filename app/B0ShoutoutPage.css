@@ -3,13 +3,20 @@
 .ui-icon-loading {
 	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
 }
+/* mobilebutton_5 */
+#B0ShoutoutPage_mobilebutton_5 {
+
+}
+.ui-btn.B0ShoutoutPage_mobilebutton_5 {
+
+}
 /* mobilecontainer */
 .ui-content.B0ShoutoutPage_mobilecontainer {
-	padding: 5px 5px 5px 5px;
+	padding: 15px 15px 15px 15px;
 }
 /* html_4 */
 .B0ShoutoutPage_html_4 {
-	margin: 0px 0px 0px 0px;
+	margin: 8px 5px 8px 5px;
 	font-weight: normal;
 	width: 100%; height: 100%;
 }

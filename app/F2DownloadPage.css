@@ -1,0 +1,130 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.F2DownloadPage_mobilecontainer {
+	padding: 5px 15px 15px 15px;
+}
+/* mobilelabel_2 */
+.F2DownloadPage_mobilelabel_2 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_14 */
+.F2DownloadPage_mobilelabel_14 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_21 */
+.F2DownloadPage_spacer_21 {
+	width: 100%; height: 5px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_15 */
+.F2DownloadPage_mobilelabel_15 {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_16 */
+.F2DownloadPage_spacer_16 {
+	width: 100%; height: 5px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_23 */
+.F2DownloadPage_mobilelabel_23 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_22 */
+.F2DownloadPage_mobilelabel_22 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_24 */
+.F2DownloadPage_mobilelabel_24 {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_25 */
+.F2DownloadPage_spacer_25 {
+	width: 100%; height: 5px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_13 */
+.F2DownloadPage_mobilelabel_13 {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilecollapsibleset_3 */
+.F2DownloadPage_mobilecollapsibleset_3 {
+	margin: 8px 5px 8px 5px;
+}
+/* mobilecollapsblock_4 */
+.F2DownloadPage_mobilecollapsblock_4 {
+
+}
+.F2DownloadPage_mobilecollapsblock_4 .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* mobilelabel_20 */
+.F2DownloadPage_mobilelabel_20 {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilebutton_17 */
+#F2DownloadPage_mobilebutton_17 {
+
+}
+.ui-btn.F2DownloadPage_mobilebutton_17 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilecollapsblock_7 */
+.F2DownloadPage_mobilecollapsblock_7 {
+
+}
+.F2DownloadPage_mobilecollapsblock_7 .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* mobilebutton_18 */
+#F2DownloadPage_mobilebutton_18 {
+
+}
+.ui-btn.F2DownloadPage_mobilebutton_18 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilecollapsblock_10 */
+.F2DownloadPage_mobilecollapsblock_10 {
+
+}
+.F2DownloadPage_mobilecollapsblock_10 .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* mobilebutton_19 */
+#F2DownloadPage_mobilebutton_19 {
+
+}
+.ui-btn.F2DownloadPage_mobilebutton_19 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.F2DownloadPage_mobilefooter {
+	min-height:38px;
+}

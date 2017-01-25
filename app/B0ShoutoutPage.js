@@ -23,14 +23,23 @@ function setDetailContent(pageUrl) {
 }
 
 Apperyio.AppPages = [{
+    "name": "F1DeveloperPage",
+    "location": "F1DeveloperPage.html"
+}, {
     "name": "D0ComplaintPage",
     "location": "D0ComplaintPage.html"
+}, {
+    "name": "F2DownloadPage",
+    "location": "F2DownloadPage.html"
 }, {
     "name": "F0AboutUsPage",
     "location": "F0AboutUsPage.html"
 }, {
     "name": "B0ShoutoutPage",
     "location": "B0ShoutoutPage.html"
+}, {
+    "name": "B1CheckShoutoutPage",
+    "location": "B1CheckShoutoutPage.html"
 }, {
     "name": "A0IndexPage",
     "location": "A0IndexPage.html"
@@ -52,6 +61,7 @@ function B0ShoutoutPage_js() {
 
     /* Object & array with components "name-to-id" mapping */
     var n2id_buf = {
+        'mobilebutton_5': 'B0ShoutoutPage_mobilebutton_5',
         'html_4': 'B0ShoutoutPage_html_4',
         'PopupLableName': 'B0ShoutoutPage_PopupLableName'
     };
@@ -142,6 +152,18 @@ function B0ShoutoutPage_js() {
         $(document).on("click", "a :input,a a,a fieldset label", function(event) {
             event.stopPropagation();
         });
+
+        $(document).off("click", '#B0ShoutoutPage_mobileheader [name="mobilebutton_5"]').on({
+            click: function(event) {
+                if (!$(this).attr('disabled')) {
+                    Apperyio.navigateTo('B1CheckShoutoutPage', {
+                        transition: 'slide',
+                        reverse: false
+                    });
+
+                }
+            },
+        }, '#B0ShoutoutPage_mobileheader [name="mobilebutton_5"]');
 
     };
 
