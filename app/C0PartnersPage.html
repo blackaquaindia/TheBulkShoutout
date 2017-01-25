@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            C0PartnersPage
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-ajaxTransport.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/q/q.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/EventEmitter.js/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/tv4/tv4.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/dist/localforage.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-setitems/localforage-setitems.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-find/localforage-find.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/crypto-js-md5/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/moment/moment.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/underscore-query/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/offline/offline.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../libs/cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="C0PartnersPage" id="C0PartnersPage"
+        class="type-interior" data-theme="c">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Back"
+            data-theme="c" name="mobileheader" id="C0PartnersPage_mobileheader" class="C0PartnersPage_mobileheader">
+                <h1 dsid="mobileheader">
+                    Partners
+                </h1>
+                <!-- mobilebutton_6 --><!--
+                --><a data-role="button" name="mobilebutton_6" dsid="mobilebutton_6" class="C0PartnersPage_mobilebutton_6 ui-btn-right"
+                id="C0PartnersPage_mobilebutton_6" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-inline='true' data-mini='true' data-theme="c"
+                tabindex="1">
+                Join Us
+                </a>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="C0PartnersPage_mobilecontainer" name="mobilecontainer"
+            class="C0PartnersPage_mobilecontainer ui-content" dsid="mobilecontainer" data-theme="c">
+                <link href="C0PartnersPage.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="C0PartnersPage.js">
+                </script>
+                <!-- mobilelist_7 -->
+                <ul data-role="listview" id="C0PartnersPage_mobilelist_7" class="C0PartnersPage_mobilelist_7"
+                name="mobilelist_7" dsid="mobilelist_7" data-inset="true" data-filter="true" data-filter-theme="c"
+                data-filter-placeholder="Search Page" data-theme="c" data-autodividers="true" data-divider-theme="b"
+                data-count-theme="b" style="" data-split-icon="carat-r">
+                    <!-- mobilelistitem_8 -->
+                    <li class="C0PartnersPage_mobilelistitem_8" data-icon="carat-r">
+                        <a id="C0PartnersPage_mobilelistitem_8" name="mobilelistitem_8" dsid="mobilelistitem_8"
+                        tabindex="2" class="C0PartnersPage_mobilelistitem_8">
+                        <h3>_mumbai_meri_jaan_</h3>
+                        </a>
+                    </li>
+                    <!-- mobilelistitem_12 -->
+                    <li class="C0PartnersPage_mobilelistitem_12" data-icon="carat-r">
+                        <a id="C0PartnersPage_mobilelistitem_12" name="mobilelistitem_12" dsid="mobilelistitem_12"
+                        tabindex="2" class="C0PartnersPage_mobilelistitem_12">
+                        <h3>mumbaiqueens</h3>
+                        </a>
+                    </li>
+                    <!-- mobilelistitem_14 -->
+                    <li class="C0PartnersPage_mobilelistitem_14" data-icon="carat-r">
+                        <a id="C0PartnersPage_mobilelistitem_14" name="mobilelistitem_14" dsid="mobilelistitem_14"
+                        tabindex="2" class="C0PartnersPage_mobilelistitem_14">
+                        <h3>mumbaishoutout99</h3>
+                        </a>
+                    </li>
+                    <!-- mobilelistitem_16 -->
+                    <li class="C0PartnersPage_mobilelistitem_16" data-icon="carat-r">
+                        <a id="C0PartnersPage_mobilelistitem_16" name="mobilelistitem_16" dsid="mobilelistitem_16"
+                        tabindex="2" class="C0PartnersPage_mobilelistitem_16">
+                        <h3>indian_shoutout_2016</h3>
+                        </a>
+                    </li>
+                    <!-- mobilelistitem_18 -->
+                    <li class="C0PartnersPage_mobilelistitem_18" data-icon="carat-r">
+                        <a id="C0PartnersPage_mobilelistitem_18" name="mobilelistitem_18" dsid="mobilelistitem_18"
+                        tabindex="2" class="C0PartnersPage_mobilelistitem_18">
+                        <h3>mumbaishoutouts111</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="C0PartnersPage_mobilefooter"
+            name="mobilefooter" dsid="mobilefooter" id="C0PartnersPage_mobilefooter" data-theme="c">
+            </div>
+            <!-- PartnersPopupName -->
+            <div data-role="popup" name="PartnersPopupName" dsid="PartnersPopupName" id="C0PartnersPage_PartnersPopupName"
+            class="PartnersPopupClass  C0PartnersPage_PartnersPopupName" data-corners="true"
+            data-dismissible="true" data-overlay-theme="" data-theme="" data-shadow="true" data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- mobilelabel_3 -->
+                    <div name="mobilelabel_3" id="C0PartnersPage_mobilelabel_3" dsid="mobilelabel_3"
+                    data-role="appery_label" class="C0PartnersPage_mobilelabel_3">
+                        Partners Pages
+                    </div>
+                    <!-- mobilelabel_4 -->
+                    <div name="mobilelabel_4" id="C0PartnersPage_mobilelabel_4" dsid="mobilelabel_4"
+                    data-role="appery_label" class="C0PartnersPage_mobilelabel_4">
+                        Your Shoutout Will Be Done In All These Partners Pages
+                    </div>
+                    <!-- mobilelabel_5 -->
+                    <div name="mobilelabel_5" id="C0PartnersPage_mobilelabel_5" dsid="mobilelabel_5"
+                    data-role="appery_label" class="C0PartnersPage_mobilelabel_5">
+                        If Any of Your Friend Owns Shoutout Page Ask Them To Become Our Partner...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
