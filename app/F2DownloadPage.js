@@ -61,6 +61,8 @@ function F2DownloadPage_js() {
 
     /* Object & array with components "name-to-id" mapping */
     var n2id_buf = {
+        'mobilelabel_26': 'F2DownloadPage_mobilelabel_26',
+        'spacer_27': 'F2DownloadPage_spacer_27',
         'mobilelabel_2': 'F2DownloadPage_mobilelabel_2',
         'mobilelabel_14': 'F2DownloadPage_mobilelabel_14',
         'spacer_21': 'F2DownloadPage_spacer_21',
