@@ -202,7 +202,7 @@ function C0PartnersPage_js() {
         $(document).off("click", '#C0PartnersPage_mobilecontainer [name="mobilelistitem_8"]').on({
             click: function(event) {
                 if (!$(this).attr('disabled')) {
-                    window.top.location = 'https://www.instagram.com/_mumbai_meri_jaan_/';
+                    window.top.location = 'https://www.instagram.com/explore/tags/agharkarjewellers/';
 
                 }
             },
