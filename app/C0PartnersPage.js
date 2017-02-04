@@ -202,7 +202,7 @@ function C0PartnersPage_js() {
         $(document).off("click", '#C0PartnersPage_mobilecontainer [name="mobilelistitem_8"]').on({
             click: function(event) {
                 if (!$(this).attr('disabled')) {
-                    window.top.location = 'https://www.instagram.com/explore/tags/agharkarjewellers/';
+                    window.top.location = 'https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fexplore%2Ftags%2Fagharkarjewellers%2F';
 
                 }
             },
